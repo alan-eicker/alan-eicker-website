@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  height: 60px;
+  justify-content: space-between;
+  padding: 0 20px;
+
+  &__logo {
+    background: transparent;
+    border: 0;
+    color: inherit;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 20px;
+    text-transform: lowercase;
+  }
+
+  &__nav {
+    & > button {
+      background: transparent;
+      border: 0;
+      color: inherit;
+      cursor: pointer;
+      font-family: inherit;
+      font-size: 14px;
+      font-weight: 500;
+
+      @media (min-width: 768px) {
+        font-size: inherit;
+      }
+    }
+
+    & > * + * {
+      margin-left: 12px;
+
+      @media (min-width: 768px) {
+        margin-left: 20px;
+      }
+    }
+  }
+}
