@@ -5,8 +5,8 @@ import styles from './Section.module.scss';
 const Section = ({ title, children = <></> }) => (
   <section className={styles.section}>
     <div className={styles.sectionContent}>
-      <h2 className={styles.sectionTitle}>{title}</h2>
-      {children}
+      <h1 className={styles.sectionTitle}>{title}</h1>
+      <div>{children}</div>
     </div>
   </section>
 );

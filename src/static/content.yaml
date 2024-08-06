@@ -1,43 +1,62 @@
 ---
-docTitle: Alan Eicker | JavaScript Full-Stack Engineer
+docTitle: Alan Eicker | Front End Engineer
+
 header:
   logo: Alan Eicker
   navItems:
-    - 'about'
+    - 'skills'
     - 'projects'
     - 'career'
-hero:
-  strapline: Hi, my name is
-  title: Alan Eicker.
-  subtitle: Builder of All Things Frontend.
-  text:
-    If you had 5 Alans you could rule the software universe. So I recommend hiring
-    him and having him train 4 other guys to be as good as he is. Alan is the kind
-    of front-end developer UX designers like myself dream of.
+
 footer:
   copyright: Alan Eicker. All rights reserved.
-  contactInfo:
-    email: alaneicker@gmail.com
-    phone: 224-622-7278
-  iconCredits:
-    websiteLinkUrl: https://icons8.com
-    websiteLinkText: Icons8
-    iconUrl: https://icons8.com/icon/OySmsSdy3UZN/beard
-    iconName: Beard
-  socialLinks:
-    - name: GitHub
-      url: https://github.com/alan-eicker?tab=repositories
-      icon: devicon-github-original
-    - name: CodePen
-      url: https://codepen.io/alaneicker
-      icon: devicon-codepen-plain
-    - name: LinkedIn
-      url: https://www.linkedin.com/in/alaneicker
-      icon: devicon-linkedin-plain
-preface:
-  If you had 5 Alans you could rule the software universe. So I recommend hiring
-  him and having him train 4 other guys to be as good as he is. Alan is the kind of
-  front-end developer UX designers like myself dream of.
+
+home:
+  title: Hi, I'm Alan, a front end engineer who loves bringing creative user experiences to life.
+  content:
+    - I began my journey @yearsExperience years ago as a junior front-end engineer for a small design company building ColdFusion websites for construction companies. Today, I lead the front-end efforts for one of America's largest insurance companies, working with technologies such as React, Redux and Node.js.
+    - Throughout my career, I've seen the Web grow from simple static HTML websites into complex data-driven progressive web apps. Over the years, I've invested countless hours honing my skills to stay on top of the next emerging technology trend. I'm not an expert at everything out there, but I'd be confident building just about anything UI related.
+
+skills:
+  title: I am a seasoned engineer who is comfortable working in all aspects of the technology stack.
+  items:
+    - name: HTML5
+      icon: devicon-html5-plain
+    - name: CSS3
+      icon: devicon-css3-plain
+    - name: JavaScript
+      icon: devicon-javascript-plain
+    - name: TypeScript
+      icon: devicon-typescript-plain
+    - name: React
+      icon: devicon-react-original
+    - name: Redux
+      icon: devicon-redux-original
+    - name: Next.js
+      icon: devicon-nextjs-original
+    - name: GraphQL
+      icon: devicon-graphql-plain
+    - name: Node.js
+      icon: devicon-nodejs-plain
+    - name: Express
+      icon: devicon-express-original
+    - name: PostgreSQL
+      icon: devicon-postgresql-plain
+    - name: MongoDB
+      icon: devicon-mongodb-plain
+    - name: Git
+      icon: devicon-git-plain
+    - name: Docker
+      icon: devicon-docker-plain
+    - name: Jenkins
+      icon: devicon-jenkins-plain
+
+projects:
+  title: I'm continuously hoaning my skills with open source and experimental projects.
+
+career:
+  title: Thoughout my career, I have had the opportunity to work at a bunch of great companies.
+
 sections:
   bio:
     title: A Bit About Me

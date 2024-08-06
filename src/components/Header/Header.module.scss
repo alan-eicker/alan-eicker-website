@@ -25,6 +25,12 @@
       font-family: inherit;
       font-size: 14px;
       font-weight: 500;
+      transition: background 0.2s linear;
+
+      &:hover,
+      &.isActive {
+        background-color: rgba(29, 32, 83, 70%);
+      }
 
       @media (min-width: 768px) {
         font-size: inherit;

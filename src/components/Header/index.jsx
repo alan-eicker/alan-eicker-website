@@ -16,7 +16,11 @@ const Header = ({ logo = <></>, navItems = [] }) => {
       </button>
       <ul className={styles.header__nav}>
         {navItems.map((item) => (
-          <button key={item} onClick={() => setSection(item)}>
+          <button
+            className={section === item && styles.isActive}
+            key={item}
+            onClick={() => setSection(item)}
+          >
             {item}
           </button>
         ))}
