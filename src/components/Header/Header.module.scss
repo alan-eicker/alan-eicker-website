@@ -12,8 +12,12 @@
     color: inherit;
     cursor: pointer;
     font-family: inherit;
-    font-size: 20px;
+    font-size: 18px;
     text-transform: lowercase;
+
+    @media (min-width: 768px) {
+      font-size: 20px;
+    }
   }
 
   &__nav {
