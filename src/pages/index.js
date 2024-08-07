@@ -4,6 +4,7 @@ import Section from '@/components/Section';
 import Header from '@/components/Header';
 import HomeContent from '@/components/HomeContent';
 import SkillsContent from '@/components/SkillsContent';
+import ProjectsContent from '@/components/ProjectsContent';
 import { useContentScrollContext } from '@/providers/ContentScrollProvider';
 
 const { career, docTitle, header, home, projects, skills } = content;
@@ -27,8 +28,12 @@ export default function Home() {
         <Section title={skills.title}>
           <SkillsContent content={skills.items} />
         </Section>
-        <Section title={projects.title}>Projects content...</Section>
-        <Section title={career.title}>Career content...</Section>
+        <Section title={projects.title}>
+          <ProjectsContent content={projects.items} />
+        </Section>
+        <Section title={career.title}>
+          <pre>{JSON.stringify(career, null, 2)}</pre>
+        </Section>
       </main>
     </>
   );

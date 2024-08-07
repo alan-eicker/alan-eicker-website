@@ -1,0 +1,70 @@
+.projectItem {
+  padding: 24px 0;
+
+  &__head {
+    margin-bottom: 20px;
+  }
+
+  &__strapline {
+    color: gold;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  &__techList {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+
+    & > * {
+      background-color: #0e0c3d;
+      border-radius: 4px;
+      font-size: 13px;
+      padding: 4px 8px;
+      white-space: nowrap;
+      margin: 0 8px 8px 0;
+    }
+  }
+
+  &__urls {
+    display: flex;
+
+    & > * + * {
+      margin-left: 16px;
+    }
+  }
+
+  &__link {
+    background-color: #fff;
+    border-radius: 5px;
+    color: #000;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 2px 12px;
+    text-decoration: none;
+    transition: background-color 0.2s linear;
+
+    &:hover {
+      background-color: #d5d1eb;
+    }
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  &.isFeatured {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+    h3 {
+      font-size: 36px;
+    }
+
+    h4 {
+      font-size: 24px;
+      font-weight: 400;
+    }
+  }
+}
