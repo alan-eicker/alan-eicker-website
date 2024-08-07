@@ -1,6 +1,10 @@
 .projectItem {
   padding: 24px 0;
 
+  &:first-of-type {
+    padding: 0 0 24px;
+  }
+
   &__head {
     margin-bottom: 20px;
   }
