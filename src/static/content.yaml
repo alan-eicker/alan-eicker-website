@@ -53,6 +53,54 @@ skills:
 
 projects:
   title: I'm continuously hoaning my skills with open source and experimental projects.
+  items:
+    - title: Atomik UI
+      subtitle: An open source library of React components for rapid application development.
+      isFeatured: true
+      content:
+        Atomik UI was a project that I began working on in March of 2020 at
+        the begining of the Covid pandemic. It has always been something I wanted
+        to do, and after 7 months of hard work, I published it to NPM along with the
+        Atomik UI Core Sass Library.
+      urls:
+        - href: https://www.atomikui.com
+          text: Documentation
+        - href: https://github.com/atomikui/atomikui-core
+          text: GitHub
+      image: '/atomikui.png'
+    - title: Budget Buddy
+      isFeatured: false
+      description: A budgeting app for tracking monthly expenses.
+      urls:
+        - href: https://github.com/alan-eicker/BudgetBuddy
+          text: View on GitHub
+      techUsed:
+        - Node.js
+        - GraphQL
+        - MongoDB
+        - Docker
+        - React
+        - Apollo Client
+    - title: Budget Buddy REST API
+      isFeatured: false
+      description: This will be the new API for the Budget Buddy App.
+      urls:
+        - href: https://github.com/alan-eicker/ButdgetBuddyAPI
+          text: View on GitHub
+      techUsed:
+        - Node.js
+        - PostgreSQL
+        - Swagger
+    - title: React Form
+      isFeatured: false
+      description: A simple React form component using Formik and Yup.
+      urls:
+        - href: https://github.com/alan-eicker/ReactForm
+          text: View on GitHub
+      techUsed:
+        - React
+        - Formik
+        - Yup
 
 career:
   title: Thoughout my career, I have had the opportunity to work at a bunch of great companies.
