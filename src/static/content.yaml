@@ -13,9 +13,7 @@ footer:
 
 home:
   title: Hi, I'm Alan, a front end engineer who loves bringing creative user experiences to life.
-  content:
-    - I began my journey @yearsExperience years ago as a junior front-end engineer for a small design company building ColdFusion websites for construction companies. Today, I lead the front-end efforts for one of America's largest insurance companies, working with technologies such as React, Redux and Node.js.
-    - Throughout my career, I've seen the Web grow from simple static HTML websites into complex data-driven progressive web apps. Over the years, I've invested countless hours honing my skills to stay on top of the next emerging technology trend. I'm not an expert at everything out there, but I'd be confident building just about anything UI related.
+  content: I began my journey @yearsExperience years ago as a junior front-end engineer for a small design company building ColdFusion websites for construction companies. A lot has changed since then. I've experienced front end devlopment grow from simple static HTML websites into complex API-driven JavaScript applications. Today, I lead the front-end efforts for an international law firm, working with technologies such as React, Redux, Jest, Rect Testing Library, and SharePoint.
 
 skills:
   title: I am a seasoned engineer who is comfortable working in all aspects of the technology stack.
@@ -67,7 +65,6 @@ projects:
           text: Documentation
         - href: https://github.com/atomikui/atomikui-core
           text: GitHub
-      image: '/atomikui.png'
       techUsed:
         - React
         - HTML
@@ -112,26 +109,22 @@ projects:
 career:
   title: Thoughout my career, I have had the opportunity to work at a bunch of great companies.
   resumeURL: https://docs.google.com/document/d/1oa9eYW4_efYdXe78W1IGLUhac9ecgCJ1QzaCxB5maFI/edit?usp=sharing
-  items:
+  history:
     - company: Allstate Insurance
-      url: https://www.allstate.com
       duration: Mar 2015 - Present
       positionHeld:
         - Lead Software Engineer - Front-End
         - Senior Front-End Engineer
     - company: RealPage
-      url: https://www.realpage.com
       duration: Apr 2012 - Mar 2015
       positionHeld:
         - Manager of Product Development
         - Senior Front-End Developer
     - company: Restaurant.com
-      url: https://www.restaurant.com
       duration: Nov 2010 - Apr 2012
       positionHeld:
         - Senior Front-End Developer
     - company: optionsXpress (now Charles Schwab)
-      url: https://www.schwab.com
       duration: Feb 2008 - Nov 2010
       positionHeld:
         - Web Designer / Front-End Developer

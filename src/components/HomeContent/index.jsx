@@ -7,9 +7,7 @@ const HomeContent = ({ content }) => {
     return str.replace('@yearsExperience', yearsExperience);
   };
 
-  return content.map((paragraphText, index) => (
-    <p key={index}>{setYearsExperience(paragraphText)}</p>
-  ));
+  return <p>{setYearsExperience(content)}</p>;
 };
 
 HomeContent.propTypes = {

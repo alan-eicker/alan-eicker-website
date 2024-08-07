@@ -1,10 +1,13 @@
 import Head from 'next/head';
 import content from '../static/content.yaml';
+
 import Section from '@/components/Section';
 import Header from '@/components/Header';
 import HomeContent from '@/components/HomeContent';
 import SkillsContent from '@/components/SkillsContent';
-import ProjectsContent from '@/components/ProjectsContent';
+import ProjectsSection from '@/components/ProjectsSection';
+import CareerSection from '@/components/CareerSection';
+
 import { useContentScrollContext } from '@/providers/ContentScrollProvider';
 
 const { career, docTitle, header, home, projects, skills } = content;
@@ -29,10 +32,16 @@ export default function Home() {
           <SkillsContent content={skills.items} />
         </Section>
         <Section title={projects.title}>
-          <ProjectsContent content={projects.items} />
+          <ProjectsSection content={projects.items} />
         </Section>
         <Section title={career.title}>
-          <pre>{JSON.stringify(career, null, 2)}</pre>
+          <CareerSection
+            content={{
+              history: career.history,
+              referrals: career.referrals,
+              resumeURL: career.resumeURL,
+            }}
+          />
         </Section>
       </main>
     </>

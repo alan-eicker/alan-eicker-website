@@ -1,9 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
-import styles from './ProjectsContent.module.scss';
+import styles from './ProjectsSection.module.scss';
 
-const ProjectsContent = ({ content }) => (
+const ProjectsSection = ({
+  content = {
+    title: '',
+    items: [],
+  },
+}) => (
   <>
     {content.map((item) => (
       <div
@@ -46,4 +51,25 @@ const ProjectsContent = ({ content }) => (
   </>
 );
 
-export default ProjectsContent;
+ProjectsSection.propTypes = {
+  content: PropTypes.shape({
+    title: PropTypes.string,
+    items: PropTypes.arrayOf(
+      PropTypes.shape({
+        isFeatured: PropTypes.bool,
+        description: PropTypes.string,
+        subtitle: PropTypes.string,
+        techUsed: PropTypes.arrayOf(PropTypes.string),
+        title: PropTypes.string,
+        urls: PropTypes.arrayOf(
+          PropTypes.shape({
+            text: PropTypes.string,
+            url: PropTypes.string,
+          }),
+        ),
+      }),
+    ),
+  }),
+};
+
+export default ProjectsSection;
