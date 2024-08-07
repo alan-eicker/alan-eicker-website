@@ -14,7 +14,9 @@ const ProjectsContent = ({ content }) => (
       >
         <div className={styles.projectItem__head}>
           {item.isFeatured && (
-            <div className={styles.projectItem__strapline}>Featured</div>
+            <div className={styles.projectItem__strapline}>
+              Featured &#9733;
+            </div>
           )}
           <h3>{item.title}</h3>
           {item.subtitle && <h4>{item.subtitle}</h4>}
