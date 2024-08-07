@@ -8,7 +8,7 @@ const SkillsContent = ({ content }) => {
       {content.map((item) => (
         <div className={styles.skillsGrid__item} key={item.name}>
           <i className={item.icon} aria-hidden="true" />
-          <span className="screenreader-only">{item.name}</span>
+          <span className={styles.screenreaderOnly}>{item.name}</span>
         </div>
       ))}
     </div>

@@ -1,3 +1,5 @@
+@import '../../styles/utilities.module.scss';
+
 .skillsGrid {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
