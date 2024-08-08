@@ -1,9 +1,12 @@
 import React from 'react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import PropTypes from 'prop-types';
 import styles from './Header.module.scss';
 
 const Header = ({ logo = <></>, navItems = [] }) => {
+  const page = usePathname().replace('/', '');
+
   return (
     <header className={styles.header}>
       <Link className={styles.header__logo} href="/">
@@ -11,7 +14,11 @@ const Header = ({ logo = <></>, navItems = [] }) => {
       </Link>
       <ul className={styles.header__nav}>
         {navItems.map((item) => (
-          <Link key={item} href={item}>
+          <Link
+            className={page === item.toLowerCase() && styles.isActive}
+            key={item}
+            href={item}
+          >
             {item}
           </Link>
         ))}
