@@ -7,13 +7,11 @@
   padding: 0 20px;
 
   &__logo {
-    background: transparent;
-    border: 0;
     color: inherit;
-    cursor: pointer;
     font-family: inherit;
     font-size: 18px;
     text-transform: lowercase;
+    text-decoration: none;
 
     @media (min-width: 768px) {
       font-size: 20px;
@@ -21,14 +19,15 @@
   }
 
   &__nav {
-    & > button {
-      background: transparent;
-      border: 0;
+    & > a {
+      border-radius: 4px;
+      display: inline-block;
       color: inherit;
-      cursor: pointer;
       font-family: inherit;
       font-size: 14px;
       font-weight: 500;
+      padding: 4px 6px;
+      text-decoration: none;
       transition: background 0.2s linear;
 
       &:hover,
@@ -38,6 +37,7 @@
 
       @media (min-width: 768px) {
         font-size: inherit;
+        padding: 4px 10px;
       }
     }
 
