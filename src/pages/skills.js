@@ -12,7 +12,7 @@ export default function Skills(props, ref) {
       <Head>
         <title>{docTitle} | Skills</title>
       </Head>
-      <Section title={skills.title}>
+      <Section title={skills.title} alignCenter>
         <SkillsContent content={skills.items} />
       </Section>
     </PageTransition>

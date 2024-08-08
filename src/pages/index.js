@@ -12,7 +12,7 @@ export default function Home(props, ref) {
       <Head>
         <title>{docTitle} | Home</title>
       </Head>
-      <Section title={home.title}>
+      <Section title={home.title} alignCenter>
         <HomeContent content={home.content} />
       </Section>
     </PageTransition>

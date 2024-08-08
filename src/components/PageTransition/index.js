@@ -6,7 +6,7 @@ function PageTransition({ children, ...rest }, ref) {
   const inTheCenter = { x: 0 };
   const onTheLeft = { x: '-100%' };
 
-  const transition = { duration: 0.6, ease: 'easeInOut' };
+  const transition = { duration: 0.3, ease: 'easeInOut' };
 
   return (
     <motion.div
