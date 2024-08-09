@@ -26,13 +26,17 @@
       font-family: inherit;
       font-size: 14px;
       font-weight: 500;
-      padding: 4px 6px;
+      line-height: 1.5;
+      padding: 0 6px;
       text-decoration: none;
       transition: background 0.2s linear;
 
-      &:hover,
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.15);
+      }
+
       &.isActive {
-        background-color: rgba(29, 32, 83, 70%);
+        background-color: #f7450a;
       }
 
       @media (min-width: 768px) {
