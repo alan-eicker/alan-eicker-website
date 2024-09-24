@@ -36,7 +36,7 @@ const ProjectsSection = ({
           {item.urls.map((url) => (
             <div key={url.href}>
               <a
-                className={styles.projectItem__link}
+                className={styles.btnLink}
                 href={url.href}
                 target="_blank"
                 rel="noreferrer noopener"

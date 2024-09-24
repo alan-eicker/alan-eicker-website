@@ -16,6 +16,9 @@ const CareerSection = ({ content }) => (
         </ul>
       </div>
     ))}
+    <a className={styles.btnLink} target="_blank" href={content.resumeURL}>
+      View Resum&eacute;
+    </a>
   </>
 );
 

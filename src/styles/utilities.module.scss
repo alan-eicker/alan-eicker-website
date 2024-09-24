@@ -8,3 +8,19 @@
   position: absolute;
   width: 1px;
 }
+
+.btnLink {
+  background-color: #fff;
+  border-radius: 5px;
+  color: #000;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 2px 12px;
+  text-decoration: none;
+  transition: background-color 0.2s linear;
+
+  &:hover {
+    background-color: #d5d1eb;
+  }
+}
